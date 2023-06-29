@@ -52,13 +52,13 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(87, 87, 87);
-    color: white;
-    border-top: 2px solid rgb(150, 150, 150);
+    background-color: #f5e7e7;
+    color: black;
 }
 
 menu > ul > li > a:hover {
-    background-color: gray;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* MAIN */

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diu Cakes</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html" ><img src="imagens/Diu-Cakes.jpg" alt="Logo Diu"></a>
+        </div>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="quemsou.html">Quem sou</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <section>
+            <h2>Contato</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam atque consequuntur dignissimos
+                ducimus ea ex, fuga id inventore ipsum laudantium maiores nam neque officia perspiciatis placeat quis
+                sed veritatis.</p>
+            <div class="container">
+                <img src="imagens/icon-whatsapp.jpg">
+                <p>WHATSAPP<br><br>(11)xxxxx-xxxxx</p>
+            </div>
+            <div class="container">
+                <img src="imagens/icon-email.jpg">
+                <p>E-MAIL<br><br>diucakes@contato.com</p>
+            </div>
+            <div class="container">
+                <img src="imagens/icon-relogio.jpg">
+                <p>HORÁRIO DE ATENDIMENTO<br><br>Segunda a sexta: 09hs as 18hs</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="imagens/icon-bt.png">
+        <a href="https://www.instagram.com/agomes.diu/" target="_blank"><img src="imagens/icon-instagram.png"></a>
+    </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

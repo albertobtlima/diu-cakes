@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diu Cakes</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div id="logo">
+            <a href="index.html" ><img src="imagens/Diu-Cakes.jpg" alt="Logo Diu"></a>
+        </div>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="quemsou.html">Quem sou</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <section>
+            <h2>Bolos caseiros para se apaixonar</h2>
+            <div class="slider">
+                <div class="slides">
+                    <!-- Radio buttons-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!-- Slide images -->
+                    <div class="slide first">
+                        <img src="imagens/bolo-pq.png" alt="Bolo1">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/bolo-churros.png" alt="Bolo2">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/bolo-coco.png" alt="Bolo3">
+                    </div>
+                    <!-- Navigation auto-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+
+            <!--
+            <h2>Bolos caseiros para se apaixonar!</h2>
+            <div id="destaque">
+                <a href="produtos.html"><img src="imagens/bolo-pq.png" alt="Bolo"></a>
+            </div>
+            <h2>Destaque!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto, atque consequatur dicta
+                doloremque doloribus enim fugiat id iure libero minima natus officiis possimus quia, sint sit soluta
+                vitae? Adipisci!</p>
+                -->
+        </section>
+    </main>
+    <footer>
+        <img src="imagens/icon-bt.png" alt="BT technology">
+        <a href="https://www.instagram.com/agomes.diu/" target="_blank"><img src="imagens/icon-instagram.png" alt=" Instagram"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

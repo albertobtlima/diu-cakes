@@ -74,7 +74,7 @@ main {
 section > h2 {
     color: black;
     font-family: 'Great Vibes', cursive;
-    font-size: 2em;
+    font-size: 1.6em;
     padding: 20px;
     text-align: center;
 }
@@ -87,8 +87,19 @@ section > h3 {
 
 section > p {
     text-align: justify;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
     text-indent: 20px;
+}
+
+section > a {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#B607CB;
 }
 
 /* SLIDER */
@@ -223,4 +234,8 @@ footer > a > img {
     max-height: 40px;
     display: inline-block;
     padding: 0 20px 0 20px;
+}
+footer > a > img:hover {
+    background-color: rgba(240, 248, 255, 0.2);
+    border-radius: 10px;
 }

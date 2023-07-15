@@ -212,6 +212,7 @@ section > div > img {
 #valores {
     text-align: center;
     list-style: none;
+    padding-bottom: 20px;
 }
 
 /* CONTATO */

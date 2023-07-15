@@ -74,8 +74,8 @@ main {
 section > h2 {
     color: black;
     font-family: 'Great Vibes', cursive;
-    font-size: 1.7em;
-    padding: 20px;
+    font-size: 2em;
+    padding: 20px 0 20px 0;
     text-align: center;
 }
 

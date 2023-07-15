@@ -9,7 +9,7 @@
 }
 
 body, html {
-    background-color: lightgray;
+    background-color: ffffff;
 }
 
 header {
@@ -64,7 +64,7 @@ menu > ul > li > a:hover {
 /* MAIN */
 main {
     width: 90vw;
-    background-color: white;
+    background-color: #F5EADD;
     margin: 10px auto 10px auto;
     padding: 10px;
     border-radius: 10px;
@@ -204,6 +204,11 @@ section > div > img {
     background-color: aliceblue;
 }
 
+#valores {
+    text-align: left;
+    list-style: none;
+    padding-left: 130px;
+}
 /* CONTATO */
 .container img {
     width: 60px;

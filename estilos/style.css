@@ -86,7 +86,7 @@ section > h3 {
 }
 
 section > p {
-    text-align: justify;
+    /*text-align: justify;*/
     margin: 10px 0 20px 0;
     text-indent: 20px;
 }

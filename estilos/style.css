@@ -87,8 +87,8 @@ section > h3 {
 
 section > p {
     text-align: justify;
-    margin: 10px 0 20px 0;
-    /*text-indent: 20px;*/
+    margin: 10px 20px 20px 20px;
+    text-indent: 20px;
 }
 
 section > a {
@@ -118,7 +118,7 @@ a:hover {
     display: none;
 }
 .slide {
-    widht: 25%;
+    width: 25%;
     position: relative;
     transition: 1s;
 }

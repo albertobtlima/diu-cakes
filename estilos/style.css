@@ -70,38 +70,6 @@ main {
     border-radius: 10px;
 }
 
-/* SECTION */
-section > h2 {    
-    font-family: 'Great Vibes', cursive;
-    font-size: 1.6em;
-    text-align: center;   
-    padding: 20px 0 20px 0; 
-}
-
-section > h3 {
-    font-family: 'Great Vibes', cursive;
-    font-size: 1.5em;
-    text-align: center;
-    padding: 20px 0 0 0;
-}
-
-section > p {
-    text-align: justify;
-    margin: 10px 20px 20px 20px;
-    text-indent: 20px;
-}
-
-section > a {
-    color: black;
-    text-align: center;
-    font-size: 1.5em;
-    text-decoration: none;
-}
-
-a:hover {
-    color:#B607CB;
-}
-
 /* SLIDER */
 .slider {
     margin: 0 auto;
@@ -180,6 +148,44 @@ a:hover {
 #radio3:checked ~ .navigation-auto .auto-btn3 {
     background-color: #B607CB;
 }
+
+/* SECTION */
+section > h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+section > h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+section > p {
+    text-align: justify;
+    margin: 10px 20px 20px 20px;
+    text-indent: 20px;
+}
+
+section > a {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#B607CB;
+}
+
+#ingredientes {
+    margin-left: 30px;
+}
+
+
  /* DESTAQUE
 #destaque {
     display: flex;

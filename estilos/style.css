@@ -181,8 +181,9 @@ a:hover {
     color:#B607CB;
 }
 
-#ingredientes {
-    margin-left: 30px;
+.ingredientes {
+    margin: 0 0 20px 30px;
+
 }
 
 

@@ -181,6 +181,11 @@ a:hover {
     color:#B607CB;
 }
 
+section > a.pagingredientes {
+    text-align: right;
+    font-size: 0.8em;
+}
+
 .ingredientes {
     margin: 0 0 20px 30px;
 

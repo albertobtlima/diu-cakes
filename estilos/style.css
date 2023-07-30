@@ -164,6 +164,10 @@ section > h3 {
     padding: 20px 0 0 0;
 }
 
+section > h4 {
+    text-align: center;
+}
+
 section > p {
     text-align: justify;
     margin: 10px 20px 20px 20px;
@@ -174,7 +178,6 @@ section > p.aviso {
     text-align: left;
     text-indent: 0;
     font-size: 1em;
-    padding-top: 15px;
 }
 
 section > a {
@@ -232,6 +235,10 @@ section > div > img {
     text-align: center;
     list-style: none;
     padding-bottom: 20px;
+}
+
+img#quemsou {
+    max-width: 400px;
 }
 
 /* CONTATO */

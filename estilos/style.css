@@ -152,6 +152,7 @@ main {
 /* SECTION */
 section > h2 {
     font-family: 'Great Vibes', cursive;
+    color: rgba(0, 0, 0, 0.9);
     font-size: 1.6em;
     text-align: center;
     padding: 20px 0 20px 0;
@@ -159,6 +160,7 @@ section > h2 {
 
 section > h3 {
     font-family: 'Great Vibes', cursive;
+    color: rgba(0, 0, 0, 0.9);
     font-size: 1.5em;
     text-align: center;
     padding: 20px 0 0 0;

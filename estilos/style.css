@@ -152,7 +152,7 @@ main {
 /* SECTION */
 section > h2 {
     font-family: 'Great Vibes', cursive;
-    color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.8);
     font-size: 1.6em;
     text-align: center;
     padding: 20px 0 20px 0;
@@ -240,7 +240,7 @@ section > div > img {
 }
 
 img#quemsou {
-    max-width: 400px;
+    max-width: 350px; 
 }
 
 /* CONTATO */

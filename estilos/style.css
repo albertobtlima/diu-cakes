@@ -45,6 +45,7 @@ span#burger {
 
 menu > ul {
     list-style-type: none;
+    text-align: center;
 }
 
 menu > ul > li > a {
@@ -176,7 +177,7 @@ section > p {
     text-indent: 20px;
 }
 
-section > p.aviso {
+section > p .aviso {
     text-align: left;
     text-indent: 0;
     font-size: 1em;
@@ -216,7 +217,7 @@ div#destaque > a > img {
 */
 
 /* PRODUTO */
-section > div.produto {
+section > div .produto {
     display: flex;
     justify-content: center;
 }
@@ -264,19 +265,19 @@ footer {
     text-align: center;
 }
 
-footer > img {
+footer img {
     max-width: 70px;
     max-height: 40px;
     display: inline-block;
     padding: 0 20px 0 20px;
 }
-footer > a > img {
+footer a img {
     max-width: 70px;
     max-height: 40px;
     display: inline-block;
     padding: 0 20px 0 20px;
 }
-footer > a > img:hover {
+footer a img:hover {
     background-color: rgba(240, 248, 255, 0.2);
     border-radius: 10px;
 }

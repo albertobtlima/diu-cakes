@@ -29,7 +29,6 @@ div#logo > a > img {
     width: 100px;
 }
 
-/* MENU */
 menu {
     display: none;
 }
@@ -45,7 +44,6 @@ span#burger {
 
 menu > ul {
     list-style-type: none;
-    text-align: center;
 }
 
 menu > ul > li > a {
@@ -204,20 +202,8 @@ section > a.pagingredientes {
 
 }
 
-
- /* DESTAQUE
-#destaque {
-    display: flex;
-    justify-content: center;
-}
-
-div#destaque > a > img {
-    max-width: 350px;
-}
-*/
-
 /* PRODUTO */
-section > div .produto {
+.produto {
     display: flex;
     justify-content: center;
 }
@@ -234,13 +220,13 @@ section > div > img {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.51);
 }
 
-#valores {
+.valores {
     text-align: center;
     list-style: none;
     padding-bottom: 20px;
 }
 
-img#quemsou {
+.quemsou {
     max-width: 350px; 
     margin: auto;
     display: block;

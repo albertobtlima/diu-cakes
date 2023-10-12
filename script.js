@@ -1,4 +1,3 @@
-/* TRANSIÇÃO DE TELA */
 function mudouTamanho() {
     if (window.innerWidth >= 768) {
         itens.style.display = 'block'
@@ -14,7 +13,6 @@ function clickMenu() {
     }
 }
 
-/* SLIDES */
 let count = 1
 document.getElementById("radio1").checked = true;
 setInterval(function(){

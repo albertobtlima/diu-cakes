@@ -5,6 +5,7 @@ function mudouTamanho() {
         itens.style.display = 'none'
     }
 }
+
 function clickMenu() {
     if (itens.style.display == 'block') {
         itens.style.display = 'none'
@@ -18,6 +19,7 @@ document.getElementById("radio1").checked = true;
 setInterval(function(){
     nextImage();
 }, 4000)
+
 function nextImage(){
     count++;
     if(count > 3){

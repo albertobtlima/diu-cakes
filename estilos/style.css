@@ -227,8 +227,9 @@ section > div > img {
     display: block;
 }
 
-.novidade {
-    margin-left: 250px;
+.novidades {
+    display: flex;
+    justify-content: center;
 }
 
 /* CONTATO */

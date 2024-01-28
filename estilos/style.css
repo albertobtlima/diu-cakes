@@ -227,6 +227,10 @@ section > div > img {
     display: block;
 }
 
+.novidade {
+    margin-left: 250px;
+}
+
 /* CONTATO */
 .container img {
     width: 60px;
